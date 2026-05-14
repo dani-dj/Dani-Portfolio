@@ -122,6 +122,22 @@ export const PROJECTS: Project[] = [
     description: 'Created a CI/CD pipeline integration that automatically scans ABAP commits using ATC and posts results to Microsoft Teams.',
     techStack: ['Jenkins', 'Python', 'SAP ATC', 'Webhooks'],
     imageUrl: 'https://mma.prnewswire.com/media/1990217/IONIS_A_Genetic_Medicines_Company_Logo_v1.jpg'
+  },
+  {
+    id: 'p4',
+    title: 'Vialto Partners',
+    role: 'Developer',
+    description: 'Implemented automated compliance checks and sanction list screening for a multi-national logistics company, reducing manual processing time by 40%.',
+    techStack: ['SAP GTS', 'ABAP OO', 'IDOC', 'Enhancement Framework'],
+    imageUrl: 'https://mma.prnewswire.com/media/2948962/VIALTO_Logo.jpg?p=twitter'
+  },
+  {
+    id: 'p5',
+    title: 'Nielsen',
+    role: 'Developer',
+    description: 'Redesigned the mobile RF (Radio Frequency) screens for a large warehouse, improving picking accuracy and technician productivity by 25%.',
+    techStack: ['SAP Console', 'ITS Mobile', 'Module Pool', 'Supply Chain (WM)'],
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkIMRm4-e2jShrZjcLEwHAGcc0YSqhbCeBgQ&s'
   }
 ];
 

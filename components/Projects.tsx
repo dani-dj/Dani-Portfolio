@@ -14,10 +14,10 @@ const Projects: React.FC = () => {
            </h2>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="flex overflow-x-auto pb-12 gap-8 snap-x snap-mandatory no-scrollbar -mx-6 px-6">
           {PROJECTS.map((project, idx) => (
-            <ScrollReveal key={project.id} delay={idx * 150}>
-              <div className="group bg-sap-card rounded-xl overflow-hidden border border-gray-800 hover:border-sap-primary/50 transition-all duration-300 h-full flex flex-col hover:shadow-2xl hover:shadow-sap-primary/10">
+            <ScrollReveal key={project.id} delay={idx * 150} className="snap-start shrink-0 w-[85vw] md:w-[45vw] lg:w-[28vw]">
+              <div className="group bg-sap-card rounded-xl overflow-hidden border border-gray-800 hover:border-sap-primary/50 transition-all duration-300 h-full flex flex-col hover:shadow-2xl hover:shadow-sap-primary/10 min-h-[500px]">
                 <div className="relative h-48 overflow-hidden">
                    <div className="absolute inset-0 bg-gradient-to-t from-sap-card to-transparent z-10" />
                    <img 
