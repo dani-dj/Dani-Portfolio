@@ -13,7 +13,7 @@ export const PERSONAL_INFO = {
   location: "Chennai, India"
 };
 
-export const EXPERIENCES: ExperienceItem[] = [
+export const WORK_EXPERIENCE: ExperienceItem[] = [
   {
     id: 'exp2',
     role: 'Senior Consultant',
@@ -33,7 +33,10 @@ export const EXPERIENCES: ExperienceItem[] = [
     technologies: ['ABAP Classical', 'Smartforms', 'ALV', 'LSMW'],
     type: 'work',
     logoUrl: 'https://www.bworldonline.com/wp-content/uploads/2025/05/pwc-logo.jpg'
-  },
+  }
+];
+
+export const EDUCATION: ExperienceItem[] = [
   {
     id: 'edu1',
     role: 'M.B.A - Business Analytics',
@@ -98,27 +101,27 @@ export const SKILLS: SkillCategory[] = [
 export const PROJECTS: Project[] = [
   {
     id: 'p1',
-    title: 'S/4HANA Clean Core Migration',
-    role: 'Lead Architect',
+    title: 'Union Pacific Railroad',
+    role: 'Senior Technical Consultant',
     description: 'Designed the strategy to move 500+ custom objects to a "Clean Core" approach using SAP BTP side-by-side extensibility and key user extensibility tools.',
     techStack: ['SAP BTP', 'Steampunk', 'Code Inspector'],
-    imageUrl: 'https://picsum.photos/600/400?random=1'
+    imageUrl: 'https://cdn.britannica.com/27/275527-050-6B5AF47C/Union-Pacific-trains-pass-through-rail-station.jpg'
   },
   {
     id: 'p2',
-    title: 'Supplier Portal Fiori App',
-    role: 'Full Stack Developer',
+    title: 'Spectrum Brands',
+    role: 'Senior Technical Consultant',
     description: 'Built a custom responsive Fiori application for external suppliers to track invoices and submit disputes in real-time, integrated with S/4HANA via OData.',
     techStack: ['SAPUI5', 'OData V4', 'RAP', 'CDS'],
-    imageUrl: 'https://picsum.photos/600/400?random=2'
+    imageUrl: 'https://media.licdn.com/dms/image/v2/C4D09AQEwObWPw_eOmw/company-featured_1128_635/company-featured_1128_635/0/1620680399615?e=2147483647&v=beta&t=XufkjnkwLjN2AbabYOCzr4NC0Fv1OK1is14bCMxcGPo'
   },
   {
     id: 'p3',
-    title: 'Automated Code Review Bot',
-    role: 'Developer',
+    title: 'Ionis Pharmaceuticals',
+    role: 'Senior Technical Consultant',
     description: 'Created a CI/CD pipeline integration that automatically scans ABAP commits using ATC and posts results to Microsoft Teams.',
     techStack: ['Jenkins', 'Python', 'SAP ATC', 'Webhooks'],
-    imageUrl: 'https://picsum.photos/600/400?random=3'
+    imageUrl: 'https://mma.prnewswire.com/media/1990217/IONIS_A_Genetic_Medicines_Company_Logo_v1.jpg'
   }
 ];
 

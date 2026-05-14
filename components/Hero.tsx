@@ -118,11 +118,24 @@ const Hero: React.FC = () => {
       {/* Canvas Background */}
       <canvas 
         ref={canvasRef} 
-        className="absolute inset-0 z-0 opacity-60"
+        className="absolute inset-0 z-10 opacity-60 pointer-events-none"
       />
+
+      {/* SAP Logo Watermark Background */}
+      <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none overflow-hidden opacity-[0.08]">
+          <img 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2560px-SAP_2011_logo.svg.png" 
+            alt="SAP Logo Background" 
+            className="w-[120%] md:w-[80%] max-w-none object-contain invert grayscale"
+          />
+      </div>
       
+      {/* Fiori-inspired Decorative Glow */}
+      <div className="absolute top-1/4 -right-20 w-96 h-96 bg-sap-primary/10 rounded-full blur-[100px] pointer-events-none z-0" />
+      <div className="absolute bottom-1/4 -left-20 w-96 h-96 bg-sap-secondary/10 rounded-full blur-[100px] pointer-events-none z-0" />
+
       {/* Gradient Overlay to ensure text readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#121212]/80 via-transparent to-[#121212] z-0 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#121212]/90 via-transparent to-[#121212] z-0 pointer-events-none" />
 
       {/* Custom Keyframe Animations */}
       <style>{`
